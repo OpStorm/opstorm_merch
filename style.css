@@ -5,9 +5,36 @@ body {
   background-size: cover;
 }
 
+#nav-container {
+  display: block;
+  width: 100vw;
+  height: 80px;
+  border-bottom: 4px solid purple;
+  background-color: purple;
+}
+
+.item-nav {
+  display: block;
+  width: 100vw;
+  height: 80px;
+  border-bottom: 4px solid turquoise;
+  background-color: turquoise;
+}
+
+.op-clan {
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  left: 50%;
+}
+
+#cart {
+  width: 70px;
+  height: 70px;
+}
 h1 {
   font-size: 80px;
-  color: green;
+  color: cyan;
 }
 
 #title {

@@ -5,12 +5,24 @@ body {
   background-size: cover;
 }
 
+#cart-body {
+  background-color: white;
+  background-image: none !important;
+}
+
 #nav-container {
   display: block;
   width: 100vw;
   height: 80px;
   border-bottom: 4px solid purple;
   background-color: purple;
+}
+
+#your-cart {
+  display: block;
+  font-size: 20px;
+  position:relative;
+  left: 55%;
 }
 
 .item-nav {
@@ -23,7 +35,7 @@ body {
 
 .op-clan {
   text-align: center;
-  font-size: 30px;
+  font-size: 35px;
   position: relative;
   left: 50%;
 }
